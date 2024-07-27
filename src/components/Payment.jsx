@@ -6,12 +6,12 @@ const Payment = () => {
         data-scroll
         data-scroll-speed="0.4"
         className="absolute right-10 w-[80px] top-1/4"
-        src="./flash.png"></img>
+        src="./hyperspace/flash.png"></img>
       <img
         data-scroll
         data-scroll-speed="-0.4"
         className="absolute left-20 w-[80px] top-1/2"
-        src="./bitcoin.png"></img>
+        src="./hyperspace/bitcoin.png"></img>
       <p className="uppercase text-[#ffe700] text-[12px]">
         embrace soverign payments
       </p>

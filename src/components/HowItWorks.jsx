@@ -33,56 +33,56 @@ const setup = [
   {
     title: "docker",
     heading: "Setup Docker",
-    icon: "./docker.png",
+    icon: "./hyperspace/docker.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },
   {
     title: "hyperspace",
     heading: "Install Hyperspace",
-    icon: "./docker.png",
+    icon: "./hyperspace/docker.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },
   {
     title: "payment",
     heading: "Enter Payment Info",
-    icon: "./card.png",
+    icon: "./hyperspace/card.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },
   {
     title: "docker",
     heading: "All Set",
-    icon: "./check.png",
+    icon: "./hyperspace/check.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },
   {
     title: "search",
     heading: "User Searches GPU",
-    icon: "./search.png",
+    icon: "./hyperspace/search.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },
   {
     title: "invoice",
     heading: "Generate an Invoice for given minutes",
-    icon: "./couple.png",
+    icon: "./hyperspace/couple.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },
   {
     title: "payment",
     heading: "Recieve Payment",
-    icon: "./card.png",
+    icon: "./hyperspace/card.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },
   {
     title: "Done",
     heading: "Done",
-    icon: "./check.png",
+    icon: "./hyperspace/check.png",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate placeat laborum.",
   },

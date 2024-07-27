@@ -25,23 +25,23 @@ const Pricing = () => {
           </p>
           <div className="flex items-center  justify-between flex-wrap mt-6">
             <span className="flex gap-2 items-center">
-              <img className="w-[20px]" src="./pear.png"></img>
+              <img className="w-[20px]" src="./hyperspace/pear.png"></img>
               <p>Zero fees for ingress/egress</p>
             </span>
             <span className="flex gap-2 items-center">
-              <img className="w-[20px]" src="./pear.png"></img>
+              <img className="w-[20px]" src="./hyperspace/pear.png"></img>
               <p>Global interoperability</p>
             </span>
             <span className="flex gap-2 items-center">
-              <img className="w-[20px]" src="./pear.png"></img>
+              <img className="w-[20px]" src="./hyperspace/pear.png"></img>
               <p>99.99% uptime</p>
             </span>
             <span className="flex gap-2 items-center">
-              <img className="w-[20px]" src="./pear.png"></img>
+              <img className="w-[20px]" src="./hyperspace/pear.png"></img>
               <p>$0.05/GB/month Network Storage</p>
             </span>
             <span className="flex gap-2 items-center">
-              <img className="w-[20px]" src="./pear.png"></img>
+              <img className="w-[20px]" src="./hyperspace/pear.png"></img>
               <p>Multi-region Support</p>
             </span>
           </div>
@@ -84,13 +84,13 @@ const Pricing = () => {
                         <p className="text-[12px] font-bold flex items-center gap-1">
                           <img
                             className="w-[10px] rotate-[-90deg]"
-                            src="./right-arrow.png"></img>
+                            src="./hyperspace/right-arrow.png"></img>
                           {gpu.uploadSpeed}
                         </p>
                         <p className="text-[12px] font-bold flex items-center gap-1">
                           <img
                             className="w-[10px] rotate-[90deg]"
-                            src="./right-arrow.png"></img>
+                            src="./hyperspace/right-arrow.png"></img>
                           {gpu.downloadSpeed}
                         </p>
                       </span>
@@ -115,7 +115,9 @@ const Pricing = () => {
                   </div>
                   <div>
                     <p className="text-[14px] flex items-center gap-1">
-                      <img className="w-[14px]" src="./flash.png"></img>
+                      <img
+                        className="w-[14px]"
+                        src="./hyperspace/flash.png"></img>
                       {gpu.price}
                     </p>
                     <button className="py-1 w-full linear--button text-[#000] rounded-[6px] font-bold">
@@ -134,7 +136,7 @@ const Pricing = () => {
 
 const pricing = [
   {
-    image: "./pear.png",
+    image: "./hyperspace/pear.png",
     host: "134098",
     location: "Hong Kong, HK",
     gpu: "1x RTX 4090",
@@ -151,7 +153,7 @@ const pricing = [
     price: "50 Sats / min",
   },
   {
-    image: "./pear.png",
+    image: "./hyperspace/pear.png",
     host: "134098",
     location: "Hong Kong, HK",
     gpu: "1x RTX 4090",
@@ -168,7 +170,7 @@ const pricing = [
     price: "50 Sats / min",
   },
   {
-    image: "./pear.png",
+    image: "./hyperspace/pear.png",
     host: "134098",
     location: "Hong Kong, HK",
     gpu: "1x RTX 4090",
@@ -185,7 +187,7 @@ const pricing = [
     price: "50 Sats / min",
   },
   {
-    image: "./pear.png",
+    image: "./hyperspace/pear.png",
     host: "134098",
     location: "Hong Kong, HK",
     gpu: "1x RTX 4090",
@@ -202,7 +204,7 @@ const pricing = [
     price: "50 Sats / min",
   },
   {
-    image: "./pear.png",
+    image: "./hyperspace/pear.png",
     host: "134098",
     location: "Hong Kong, HK",
     gpu: "1x RTX 4090",

@@ -84,13 +84,13 @@ const ServerLess = () => {
                         <p className="text-[12px] font-bold flex items-center gap-1">
                           <img
                             className="w-[10px] rotate-[-90deg]"
-                            src="./right-arrow.png"></img>
+                            src="./hyperspace/right-arrow.png"></img>
                           {gpu.uploadSpeed}
                         </p>
                         <p className="text-[12px] font-bold flex items-center gap-1">
                           <img
                             className="w-[10px] rotate-[90deg]"
-                            src="./right-arrow.png"></img>
+                            src="./hyperspace/right-arrow.png"></img>
                           {gpu.downloadSpeed}
                         </p>
                       </span>
@@ -115,7 +115,9 @@ const ServerLess = () => {
                   </div>
                   <div>
                     <p className="text-[14px] flex items-center gap-1">
-                      <img className="w-[14px]" src="./flash.png"></img>
+                      <img
+                        className="w-[14px]"
+                        src="./hyperspace/flash.png"></img>
                       {gpu.price}
                     </p>
                     <button className="py-1 w-full linear--button text-[#000] rounded-[6px] font-bold">

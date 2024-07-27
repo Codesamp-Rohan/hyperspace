@@ -20,10 +20,10 @@ function App() {
         <MouseFollower />
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/serverless" element={<ServerLess />} />
-          <Route path="/hosting" element={<Hosting />} />
+          <Route path="/hyperspace/" element={<HomePage />} />
+          <Route path="/hyperspace/pricing" element={<Pricing />} />
+          <Route path="/hyperspace/serverless" element={<ServerLess />} />
+          <Route path="/hyperspace/hosting" element={<Hosting />} />
         </Routes>
         <Footer />
       </BrowserRouter>
