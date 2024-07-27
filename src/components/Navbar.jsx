@@ -87,7 +87,7 @@ const Navbar = () => {
       </div>
       <div className="sticky top-0 backdrop-blur-lg z-[1000]">
         <nav className="flex justify-between items-center text-[14px] p-3 bg-[#00000089]">
-          <Link to="/" className="w-[200px]">
+          <Link to="/hyperspace" className="w-[200px]">
             HYPERSPACE.
           </Link>
           {windowWidth > 900 ? (

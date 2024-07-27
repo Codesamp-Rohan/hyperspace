@@ -1,6 +1,6 @@
 const HowItWorks = () => {
   return (
-    <div className="mt-[40vh] flex flex-col items-center relative overflow-x-hidden">
+    <div className="mt-[40vh] flex flex-col items-center relative overflow-x-hidden work--scrollbar">
       <div className="w-[800px] h-[400px] bg-[#ff0ceb23] blur-[40px] rounded-full absolute z-[-1] left-16"></div>
       <div className="w-[400px] h-[400px] bg-[#85ff0c29] blur-[40px] rounded-full absolute top-[40%] right-10 z-[-1]"></div>
 
