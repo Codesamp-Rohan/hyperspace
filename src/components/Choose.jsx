@@ -25,7 +25,7 @@ const Choose = () => {
       <img
         ref={pear}
         className="w-[100px] rotate-[15deg] hidden md:block absolute right-20 top-0"
-        src="./hyperspace/pear.png"
+        src="./pear.png"
         alt="icon"></img>
       <div className="w-[400px] h-[400px] bg-[#f05c4230] blur-[100px] absolute left-0"></div>
       <div className="w-[400px] h-[400px] bg-[#ea42f034] blur-[100px] absolute right-0 bottom-[50px]"></div>
@@ -41,9 +41,7 @@ const Choose = () => {
       <div className="flex flex-wrap justify-center items-center w-full mt-5 gap-10">
         <div className="w-[90%] md:w-[40%] p-10 ring-[1px] ring-[#8df04288] rounded-[20px] flex flex-col items-center gap-4">
           <span className="flex items-center gap-3">
-            <img
-              className="w-[30px]"
-              src="./hyperspace/decentralised.png"></img>
+            <img className="w-[30px]" src="./decentralised.png"></img>
             <h1 className="font-bold text-[22px]">Decentralised</h1>
           </span>
           <p className="text-[14px] text-center">
@@ -53,7 +51,7 @@ const Choose = () => {
         </div>
         <div className="w-[90%] md:w-[40%] p-10 ring-[1px] ring-[#8df04288] rounded-[20px] flex flex-col items-center gap-4">
           <span className="flex items-center gap-3">
-            <img className="w-[22px]" src="./hyperspace/couple.png"></img>
+            <img className="w-[22px]" src="./couple.png"></img>
             <h1 className="font-bold text-[22px]">True Peer-to-Peer</h1>
           </span>
           <p className="text-[14px] text-center">
@@ -63,7 +61,7 @@ const Choose = () => {
         </div>
         <div className="w-[90%] md:w-[40%] p-10 ring-[1px] ring-[#8df04288] rounded-[20px] flex flex-col items-center gap-4">
           <span className="flex items-center gap-3">
-            <img className="w-[24px]" src="./hyperspace/flashGreen.png"></img>
+            <img className="w-[24px]" src="./flashGreen.png"></img>
             <h1 className="font-bold text-[22px]">Self Custodial</h1>
           </span>
           <p className="text-[14px] text-center">
@@ -74,7 +72,7 @@ const Choose = () => {
         </div>
         <div className="w-[90%] md:w-[40%] p-10 ring-[1px] ring-[#8df04288] rounded-[20px] flex flex-col items-center gap-4">
           <span className="flex items-center gap-3">
-            <img className="w-[24px]" src="./hyperspace/dollar.png"></img>
+            <img className="w-[24px]" src="./dollar.png"></img>
             <h1 className="font-bold text-[22px]">Lowest Prices</h1>
           </span>
           <p className="text-[14px] text-center">

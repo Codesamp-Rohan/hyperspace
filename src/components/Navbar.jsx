@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="h-[100%] flex flex-col justify-center gap-2 px-10 text-[3rem] sm:text-[4rem] md:text-[5rem] uppercase">
           <span className="h-[3rem] sm:h-[4rem] md:h-[5rem] flex items-center relative overflow-hidden">
             <Link
-              to="/pricing"
+              to="/hyperspace/pricing"
               className={`absolute delay-500 ease-in-out duration-1000 ${
                 menuOpen ? `top-[-10px]` : `top-20`
               }`}>
@@ -46,7 +46,7 @@ const Navbar = () => {
           </span>
           <span className="h-[3rem] sm:h-[4rem] md:h-[5rem] flex items-center relative overflow-hidden">
             <Link
-              to="/pricing"
+              to="/hyperspace/pricing"
               className={`absolute delay-500 ease-in-out duration-1000 ${
                 menuOpen ? `top-[-10px]` : `top-20`
               }`}>
@@ -55,7 +55,7 @@ const Navbar = () => {
           </span>
           <span className="h-[3rem] sm:h-[4rem] md:h-[5rem] flex items-center relative overflow-hidden">
             <Link
-              to="/pricing"
+              to="/hyperspace/pricing"
               className={`absolute delay-500 ease-in-out duration-1000 ${
                 menuOpen ? `top-[-10px]` : `top-20`
               }`}>
@@ -64,7 +64,7 @@ const Navbar = () => {
           </span>
           <span className="h-[3rem] sm:h-[4rem] md:h-[5rem] flex items-center relative overflow-hidden">
             <Link
-              to="/pricing"
+              to="/hyperspace/pricing"
               className={`absolute delay-500 ease-in-out duration-1000 ${
                 menuOpen ? `top-[-10px]` : `top-20`
               }`}>
@@ -73,7 +73,7 @@ const Navbar = () => {
           </span>
           <span className="h-[3rem] sm:h-[4rem] md:h-[5rem] flex items-center relative overflow-hidden">
             <Link
-              to="/pricing"
+              to="/hyperspace/pricing"
               className={`absolute delay-500 ease-in-out duration-1000 ${
                 menuOpen ? `top-[-10px]` : `top-20`
               }`}>
@@ -92,9 +92,9 @@ const Navbar = () => {
           </Link>
           {windowWidth > 900 ? (
             <span className="flex gap-4">
-              <Link to="/pricing">GPUs</Link>
-              <Link to="/serverless">Serverless</Link>
-              <Link to="/hosting">Hosting</Link>
+              <Link to="/hyperspace/pricing">GPUs</Link>
+              <Link to="/hyperspace/serverless">Serverless</Link>
+              <Link to="/hyperspace/hosting">Hosting</Link>
               <a>Blog</a>
               <a>Docs</a>
             </span>
